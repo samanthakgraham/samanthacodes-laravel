@@ -1,1 +1,1 @@
-# samanthacodes-laravel
+samanthacodes.com built with Laravel
