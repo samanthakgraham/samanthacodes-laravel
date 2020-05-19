@@ -14,9 +14,11 @@ class CreateTechnologies extends Migration
     public function up()
     {
         Schema::create('technologies', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->id();
-            $table->foreignId('position_id');
-            $table->string('tech_name', 255);
+            $table->string('position_idx', 10);
+            $table->foreign('position_idx')->references('idx')->on('position');
+            $table->string('tech_name');
         });
     }
 

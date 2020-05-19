@@ -14,8 +14,10 @@ class CreateTaskDescriptionTable extends Migration
     public function up()
     {
         Schema::create('task_description', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->id();
-            $table->foreignId('position_id');
+            $table->string('position_idx', 10);
+            $table->foreign('position_idx')->references('idx')->on('position');
             $table->text('task_description');
         });
     }

@@ -12,6 +12,7 @@ class PositionSeeder extends Seeder
     public function run()
     {
         DB::table('position')->insert([
+            'idx' => '2018_PRIM',
             'position_name' => 'Programmer-Analyst',
             'company' => 'Primaco',            
             'city' => 'Montreal',
@@ -20,6 +21,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2017_CLIN',
             'position_name' => 'Software Developer',
             'company' => 'Clinemetrica',            
             'city' => 'Montreal',
@@ -28,6 +30,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2015_RAID',
             'position_name' => 'Programmer-Analyst',
             'company' => 'RAID',            
             'city' => 'Montreal',
@@ -36,6 +39,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2015_ADUX',
             'position_name' => 'Full-Stack Web Developper',
             'company' => 'ADUXmedia',            
             'city' => 'Montreal',
@@ -44,6 +48,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2014_GOR',
             'position_name' => 'PHP Developper',
             'company' => 'Gorilla Group',            
             'city' => 'Montreal',
@@ -52,6 +57,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2013_AXA',
             'position_name' => 'Web Developper',
             'company' => 'AXA Assistance Canada',            
             'city' => 'Montreal',
@@ -60,6 +66,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2012_AXA',
             'position_name' => 'Technical Support',
             'company' => 'AXA Assistance Canada',            
             'city' => 'Montreal',
@@ -68,6 +75,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2012_PLANK',
             'position_name' => 'iOS/Web Development Intern',
             'company' => 'Plank Multimedia',            
             'city' => 'Montreal',
@@ -76,6 +84,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2011_AXA',
             'position_name' => 'Technical Support Intern',
             'company' => 'AXA Assistance Canada',            
             'city' => 'Montreal',
@@ -84,6 +93,7 @@ class PositionSeeder extends Seeder
         ]);
 
         DB::table('position')->insert([
+            'idx' => '2010_PRES',
             'position_name' => 'Technical Support Intern',
             'company' => 'Presagis',            
             'city' => 'Montreal',
