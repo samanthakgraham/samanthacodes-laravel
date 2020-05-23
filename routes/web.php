@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 Route::get('user', 'UserController@index');
 Route::get('user/{id}', 'UserController@show');
+
+// Home routes
+Route::get('', 'HomeController@index');
