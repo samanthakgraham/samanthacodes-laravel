@@ -14,6 +14,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
@@ -142,6 +145,8 @@
       <updated>1590256136412</updated>
       <workItem from="1590256140833" duration="614000" />
       <workItem from="1590266823289" duration="5927000" />
+      <workItem from="1591542404554" duration="5383000" />
+      <workItem from="1591550216471" duration="3393000" />
     </task>
     <servers />
   </component>
@@ -149,22 +154,24 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="685" y="298" key="#Notifications" timestamp="1590267385258">
+    <state x="685" y="298" key="#Notifications" timestamp="1591550233002">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="685" y="298" key="#Notifications/0.0.1600.870@0.0.1600.870" timestamp="1590267385258" />
+    <state x="685" y="298" key="#Notifications/0.0.1600.870@0.0.1600.870" timestamp="1591550233002" />
     <state x="530" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590267303188">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.870@0.0.1600.870" timestamp="1590267303188" />
-    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1590269199159">
+    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1591553927990">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1590269199159" />
-    <state x="507" y="34" width="585" height="801" key="find.popup" timestamp="1590274661510">
+    <state x="-1159" y="55" key="NewPhpFileDialog/0.0.1600.870/-1920.-377.1920.1050@-1920.-377.1920.1050" timestamp="1591544241980" />
+    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1591553927990" />
+    <state x="507" y="34" width="585" height="801" key="find.popup" timestamp="1591552110810">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="507" y="34" width="585" height="801" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1590274661510" />
+    <state x="-1312" y="-336" width="702" height="967" key="find.popup/0.0.1600.870/-1920.-377.1920.1050@-1920.-377.1920.1050" timestamp="1591545899319" />
+    <state x="507" y="34" width="585" height="801" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1591552110810" />
     <state x="456" y="198" key="run.anything.popup" timestamp="1590267327007">
       <screen x="0" y="0" width="1600" height="870" />
     </state>

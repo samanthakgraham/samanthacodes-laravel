@@ -16,11 +16,11 @@ class CreateEducationTable extends Migration
         Schema::create('education', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->id();
-            $table->string('university');
+            $table->string('institution');
             $table->string('degree');
             $table->string('program');
             $table->string('city');
-            $table->year('year_completed');            
+            $table->year('year_completed');
         });
     }
 

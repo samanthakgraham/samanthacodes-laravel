@@ -1,8 +1,17 @@
 <?php
 namespace Models;
 
-final class Position
+use Illuminate\Database\Eloquent\Model;
+
+final class Position extends Model
 {
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'position';
+
     /**
      * The attributes that are mass assignable.
      *

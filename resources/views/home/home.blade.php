@@ -1,0 +1,5 @@
+@include('common.header')
+@include('home.header')
+@include('home.about')
+@include('home.resume')
+@include('common.footer')

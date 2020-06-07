@@ -18,8 +18,10 @@ class PersonalInfoSeeder extends Seeder
             'first_name' => 'Samantha',
             'last_name' => 'Graham',
             'city' => 'Montreal',
-            'email' => 'samanthak.graham@gmail.com',
-            'github' => 'samanthakgraham',
+            'country' => 'Canada',
+            'email' => 'samantha@samanthacodes.com',
+            'github' => 'https://github.com/samanthakgraham',
+            'linkedin' => 'https://www.linkedin.com/in/samantha-graham-339b6b37',
             'website' => 'http://samanthacodes.com',
         ]);
     }

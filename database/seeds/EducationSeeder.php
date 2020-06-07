@@ -12,7 +12,7 @@ class EducationSeeder extends Seeder
     public function run()
     {
         DB::table('education')->insert([
-            'university' => 'Concordia University',
+            'institution' => 'Concordia University',
             'degree' => 'BCompSci',
             'program' => 'Computer Science',
             'city' => 'Montreal',
@@ -20,7 +20,7 @@ class EducationSeeder extends Seeder
         ]);
 
         DB::table('education')->insert([
-            'university' => 'CÉGEP Vanier',
+            'institution' => 'CÉGEP Vanier',
             'degree' => 'DEC',
             'program' => 'Computer Science Technology',
             'city' => 'Montreal',
